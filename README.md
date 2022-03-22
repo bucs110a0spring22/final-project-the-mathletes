@@ -9,8 +9,8 @@
 
 << [link to demo presentation slides](#) >>
 
-### Team: << team name >>
-#### << Team Members >>
+### Team: The Mathletes
+#### << Ryan Renda, Lauren Stiefel, Aviva Friedman >>
 
 ***
 
