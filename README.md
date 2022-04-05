@@ -10,7 +10,7 @@
 << [link to demo presentation slides](#) >>
 
 ### Team: The Mathletes
-#### << Ryan Renda, Lauren Stiefel, Aviva Friedman >>
+####  Ryan Renda, Lauren Stiefel, Aviva Friedman 
 
 ***
 
@@ -37,11 +37,16 @@
         * a short description of the module
 * Class Interface Design
     * << A simple drawing that shows the class relationships in your code (see below for an example). >>
-        * ![class diagram](assets/class_diagram.jpg)
+        * ![class diagram](assets/class_diagram.JPG) 
     * This does not need to be overly detailed, but should show how your code fits into the Model/View/Controller paradigm.
 * Classes
     * << You should have a list of each of your classes with a description. >>
-
+    * dice - rollDice(), doubles()
+    * gamePiece - moveForward(), turnRight(), goTo()
+    * money- addMoney(), subtractMoney(), transferMoney(), bankrupt()
+    * cards - Calls methods from other classes
+    * endGame - mostMoney(), valueProperties()
+    * Properties- rent(), valuePropertes(), color(), buyProperties()
 ## Project Structure *(Software Lead)*
 
 The Project is broken down into the following file structure:
