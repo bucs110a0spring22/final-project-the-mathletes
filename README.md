@@ -92,8 +92,27 @@ The Project is broken down into the following file structure:
 
 | Step                  | Procedure     | Expected Results  | Actual Results |
 | ----------------------|:-------------:| -----------------:| -------------- |
-|  1  | Run Counter Program  | GUI window appears with count = 0  |          |
-|  2  | click count button  | display changes to count = 1 |                 |
+|  1  | Click Run Button  | Screen appears with "computer science monopoly" and game instructions  |          |
+|  2  | press 'q' key  | program ends 
+|  3  | press 'spacebar'  | screen changes to monopoly board  |          |
+|  4  | press on the picture of a die  |  player 1 - (shoe picture) jumps foward between 1 and six spaces
+#fix steps!
+|  5  | if the property is unowned  | button appears asking if you want to buy it with yes or no  |          |
+|  6  | press yes  | value of the property is subtracted from your money, button disappears  |          |
+|  7  | press no  | button disappears  |          |
+|  8  | if property is owned by the other player| the rent of the property is subtracted from your money and added to the other player's money  |          |
+|  9  | if they land on go  | their money increases by $200 |          |
+|  10  | if they land on commnunity chest  | money increases or decreases by a random number from -50 to 50  |          |
+|  11  | if they land on chance  | player is teleported to a random space on the board  |          |
+|  12  | if they land on go to jail|  $50 is subtracted from their money and they move to just visiting space |          |
+|  13  | if they land on free parking  | nothing happens  |          |
+|  14  | if they land on just visiting  |  nothing happens |          |
+|  15  | start the next player's turn by pressing the die picture  |   |          |
+|  16  | 'q' is pressed  |  game over screen appears with the player that won (player with the most money) and the amount of money they have |          |
+|  17  | a player has 0 or less money  |  game over screen appears with the player that won (player with the most money) and the amount of money they have |          |
+|  18  |  |   |          |
+v
+|                 |
 etc...
 
 sources:

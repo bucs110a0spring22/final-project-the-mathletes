@@ -16,10 +16,3 @@ class Property(pygame.sprite.Sprite):
     self.rent = rent
     self.name = name
 
-#go - get $200
-#add community chest and chance
-
-  
-    
-
-#go to jail - go to the jail space and lose $50

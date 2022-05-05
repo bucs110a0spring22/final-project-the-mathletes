@@ -5,7 +5,7 @@ from src import controller
 def main():
     pygame.init()
     c = controller.Controller()
-    c.menuloop()
+    c.mainloop()
     #Create an instance on your controller object
     #Call your mainloop
     ###### NOTHING ELSE SHOULD GO IN main(), JUST THE ABOVE 3 LINES OF CODE ######
