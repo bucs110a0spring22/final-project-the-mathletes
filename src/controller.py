@@ -143,8 +143,7 @@ class Controller:
       if (self.player1.money <=0) or (self.player2.money <= 0):
         self.state = "GAMEOVER"
 
-      print(self.player1.stringOfProperties)
-      print(self.player2.stringOfProperties)
+      
   def gameoverloop(self):
         self.background.fill((193,205,205))
         self.screen.blit(self.background, (0, 0))

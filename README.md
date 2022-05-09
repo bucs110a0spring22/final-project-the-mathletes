@@ -24,23 +24,23 @@ warning: Everything between << >> needs to be replaced (remove << >> after repla
 
 * << A wireframe or drawing of the user interface concept along with a short description of the interface. You should have one for each screen in your program. >>
     * For example, if your program has a start screen, game screen, and game over screen, you should include a wireframe / screenshot / drawing of each one and a short description of the components
-    * ![start screen](assets/StartScreen.png)
-      * start screen - instructions for starting and quitting the game
-      *  ![main screen](assets/.JPG)
-        * monopoly game board
-    * ![game over screen](assets/GameOver.png)
-      * game over screen - tells you who won the game
-* << You should also have a screenshot of each screen for your final GUI >>
+    * Origional start screen design - ![original start screen](assets/originalStartScreen.jpg)
+    * Final start screen design - instructions for starting and quitting the game![main screen](assets/StartScreen.png)
+    * Original game screen design - ![original game screen](assets/originalGameScreen.JPG) 
+    * Final game screen design - monopoly game board which includes the game pieces (hat and shoe) and message box that shows the properties that each player owns.![start screen](assets/GameScreen.png)
+    * Original game over screen design![original game over screen](assets/originalGameOverScreen.jpg)
+    * Final game over screen design - tells you who won the game![game over](assets/GameOver.png)
+
 
 ***        
 
 ## Program Design *(Backend Specialist)*
 
 * Non-Standard libraries
-    * << You should have a list of any additional libraries or modules used (pygame, request) beyond non-standard python. >>
-    * For each additional module you should include
-        * url for the module documentation
-        * a short description of the module
+    * pygame
+      * https://www.pygame.org/docs/
+      * This module is allows the programmer to create graphics and respond to user events in the GUI.
+
 * Class Interface Design
     * << A simple drawing that shows the class relationships in your code (see below for an example). >>
         * ![class diagram](assets/unnamed.jpg) 
@@ -88,15 +88,13 @@ The Project is broken down into the following file structure:
 ## ATP
 
 | Step                  | Procedure     | Expected Results  | Actual Results |
-| ----------------------|:-------------:| -----------------:| -------------- |
-|  1  | Click Run Button  | Screen appears with "computer science monopoly" and game instructions  |          |
+| :----------------------:|:-------------:| :-----------------:| -------------- |
+|  1  | Click Run Button | Screen appears with "computer science monopoly" and game instructions  |          |
 |  2  | press 'q' key  | program ends 
 |  3  | press 'spacebar'  | screen changes to monopoly board  |          |
 |  4  | press 'spacebar'  |  player 1 - (shoe picture) jumps foward between 1 and six spaces to a property. If it is an unowned property and the player has enough money to buy it, it is automatically bought (the value of the property is subtracted from the player's money). If property is owned by the other player the rent of the property is subtracted from the player's money and added to the other player's money. If the player lands on go, their money increases by $200. If they land on community chest, their money increases or decreases by a random number from -50 to 50. If they land on chance, the player moves to a random space on the board. If they land on 'go to jail,' $50 is subtracted from their money and they move to just visiting space. If they land on 'free parking' or 'just visiting,' nothing happens. If a player has $0 or less, a game over screen appears with the player that won (the player with the most money) and the amount of money they ended the game with. 
 |  5  | press 'spacebar'  | the same actions are repeated with player 2.  |          |
 |  6  | 'q' is pressed  |  game over screen appears with the player that won (player with the most money) and the amount of money they have |
+|  7  | Click stop button (on the repl)  |  program ends |
 
-etc...
-
-sources:
 
