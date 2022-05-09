@@ -1,6 +1,4 @@
 import pygame
-from src import die
-from src import property
 import random
 
 class Player(pygame.sprite.Sprite):
@@ -56,8 +54,6 @@ class Player(pygame.sprite.Sprite):
     return random.randrange(0, 20)
     
     
-
-  
   def communityChestCard(self):
     '''randomly adds or subtracts money from the player
     args: self (player object)'''

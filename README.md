@@ -46,10 +46,10 @@ warning: Everything between << >> needs to be replaced (remove << >> after repla
         * ![class diagram](assets/unnamed.jpg) 
     * This does not need to be overly detailed, but should show how your code fits into the Model/View/Controller paradigm.
 * Classes
-    * << You should have a list of each of your classes with a description. >>
-    * die - rollDie()
-    * player - moveFromRoll(), buyProperty(), chanceCard(), communityChestCard(), payRent()
-    * property- addMoney(), subtractMoney(), transferMoney(), bankrupt()
+    * Die - Class that defines a die. Keeps track of the current roll of the die and has the rollDie() method, which "rolls" a six sided die.
+    * Player - Class that defines a player. This includes the image for the player, the amount of money it has, its location, and the properties it owns. Methods - moveFromRoll(), buyProperty(), chanceCard(), communityChestCard(), payRent()
+    * Property- Class that defines a property. This keeps track of a property's name, the amount of money it costs to buy, its rent, and its owner. The image is just a dot used to show the location that the player will go to when it moves to that property. Methods - addMoney(), subtractMoney(), transferMoney(), bankrupt()
+    * Controller - Class that defines the controller. It creates the Player and Die objects, and creates the Property objects by reading a JSON file (data permanence feater) - this make it easier to change instance variable for the properties. Methods - mainloop(), menuloop(), gameloop(), gameoverloop()
 ## Project Structure *(Software Lead)*
 
 The Project is broken down into the following file structure:
