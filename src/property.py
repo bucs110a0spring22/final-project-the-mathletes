@@ -2,7 +2,7 @@ import pygame
 class Property(pygame.sprite.Sprite):
   def __init__(self, name = '',filename = '', x= 0, y=0, color= '', value = 0, rent = 0):
     '''initializes a property space on the board
-    args: self, x, y (int)/float, filename (str), color (str), value, rent (ints)
+    args: self, x, y (int), name (str),filename (str), color (str), value (int), rent (int)
     '''
     super().__init__()
     self.image = pygame.image.load(filename).convert_alpha()

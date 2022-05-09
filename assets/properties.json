@@ -1,7 +1,7 @@
 [
    {
       "name":"Go",
-      "filename":"assets/Man.jpg",
+      "filename":"assets/Dot.png",
       "x":455,
       "y":465,
       "color":null,
@@ -10,7 +10,7 @@
    },
    {
       "name":"Fortran",
-      "filename":"assets/Man.jpg",
+      "filename":"assets/Dot.png",
       "x":360,
       "y":475,
       "color":"Black",
@@ -19,7 +19,7 @@
    },
    {
       "name":"Swift",
-      "filename":"assets/Man.jpg",
+      "filename":"assets/Dot.png",
       "x":280,
       "y":475,
       "color":"Black",
@@ -28,16 +28,16 @@
    },
    {
       "name":"Groovy",
-      "filename":"assets/Man.jpg",
+      "filename":"assets/Dot.png",
       "x":190,
       "y":475,
-      "color":"Light Blue",
+      "color":"Dot.png",
       "value":80,
       "rent":10
    },
    {
       "name":"Ruby",
-      "filename":"assets/Man.jpg",
+      "filename":"assets/Dot.png",
       "x":115,
       "y":475,
       "color":"Light Blue",
@@ -46,7 +46,7 @@
    },
    {
       "name":"Just Visiting",
-      "filename":"assets/Man.jpg",
+      "filename":"assets/Dot.png",
       "x":10,
       "y":440,
       "color":null,
@@ -55,7 +55,7 @@
    },
    {
       "name":"SQL",
-      "filename":"assets/Man.jpg",
+      "filename":"assets/Dot.png",
       "x":25,
       "y":375,
       "color":"Pink",
@@ -64,7 +64,7 @@
    },
    {
       "name":"PHP",
-      "filename":"assets/Man.jpg",
+      "filename":"assets/Dot.png",
       "x":25,
       "y":290,
       "color":"Pink",
@@ -73,7 +73,7 @@
    },
    {
       "name":"Chance",
-      "filename":"assets/Man.jpg",
+      "filename":"assets/Dot.png",
       "x":30,
       "y":223,
       "color":null,
@@ -82,7 +82,7 @@
    },
    {
       "name":"R",
-      "filename":"assets/Man.jpg",
+      "filename":"assets/Dot.png",
       "x":30,
       "y":123,
       "color":"Red",
@@ -91,7 +91,7 @@
    },
    {
       "name":"Free Parking",
-      "filename":"assets/Man.jpg",
+      "filename":"assets/Dot.png",
       "x":35,
       "y":30,
       "color":null,
@@ -100,7 +100,7 @@
    },
    {
       "name":"Go lang",
-      "filename":"assets/Man.jpg",
+      "filename":"assets/Dot.png",
       "x":120,
       "y":25,
       "color":"Red",
@@ -109,7 +109,7 @@
    },
    {
       "name":"JavaScript",
-      "filename":"assets/Man.jpg",
+      "filename":"assets/Dot.png",
       "x":200,
       "y":25,
       "color":"Yellow",
@@ -118,7 +118,7 @@
    },
    {
       "name":"HTML",
-      "filename":"assets/Man.jpg",
+      "filename":"assets/Dot.png",
       "x":280,
       "y":30,
       "color":"Yellow",
@@ -127,7 +127,7 @@
    },
    {
       "name":"Community Chest",
-      "filename":"assets/Man.jpg",
+      "filename":"assets/Dot.png",
       "x":360,
       "y":35,
       "color":null,
@@ -136,7 +136,7 @@
    },
    {
       "name":"Go To Jail",
-      "filename":"assets/Man.jpg",
+      "filename":"assets/Dot.png",
       "x":435,
       "y":30,
       "color":null,
@@ -145,7 +145,7 @@
    },
    {
       "name":"C",
-      "filename":"assets/Man.jpg",
+      "filename":"assets/Dot.png",
       "x":460,
       "y":123,
       "color":"Green",
@@ -154,7 +154,7 @@
    },
    {
       "name":"C++",
-      "filename":"assets/Man.jpg",
+      "filename":"assets/Dot.png",
       "x":460,
       "y":205,
       "color":"Green",
@@ -163,7 +163,7 @@
    },
    {
       "name":"Java",
-      "filename":"assets/Man.jpg",
+      "filename":"assets/Dot.png",
       "x":460,
       "y":290,
       "color":"Blue",
@@ -172,7 +172,7 @@
    },
    {
       "name":"Python",
-      "filename":"assets/Man.jpg",
+      "filename":"assets/Dot.png",
       "x":460,
       "y":375,
       "color":"Blue",

@@ -9,6 +9,7 @@ python = "^3.8"
 pygame = "^2.1.2"
 kissdownloader = "^2"
 pygame-menu = "^4.2"
+tabulate = "^0.8.9"
 
 [tool.poetry.dev-dependencies]
 
