@@ -5,7 +5,7 @@ warning: Everything between << >> needs to be replaced (remove << >> after repla
 ### Spring, 2022 
 ### [Assignment Description](https://docs.google.com/document/d/1H4R6yLL7som1lglyXWZ04RvTp_RvRFCCBn6sqv-82ps/edit#)
 
-<< [repl](#) >>
+<< [repl](#)>>
 [github repo:](#) https://github.com/bucs110a0spring22/final-project-the-mathletes.git
 << [link to demo presentation slides](#) >>
 
@@ -42,9 +42,9 @@ warning: Everything between << >> needs to be replaced (remove << >> after repla
       * This module is allows the programmer to create graphics and respond to user events in the GUI.
 
 * Class Interface Design
-    * << A simple drawing that shows the class relationships in your code (see below for an example). >>
-        * ![class diagram](assets/unnamed.jpg) 
-    * This does not need to be overly detailed, but should show how your code fits into the Model/View/Controller paradigm.
+
+   * ![class diagram](assets/ClassDiagram.png) 
+
 * Classes
     * Die - Class that defines a die. Keeps track of the current roll of the die and has the rollDie() method, which "rolls" a six sided die.
     * Player - Class that defines a player. This includes the image for the player, the amount of money it has, its location, and the properties it owns. Methods - moveFromRoll(), buyProperty(), chanceCard(), communityChestCard(), payRent()
