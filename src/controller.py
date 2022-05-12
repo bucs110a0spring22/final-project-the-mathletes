@@ -9,6 +9,8 @@ from src import property
 
 class Controller:
   def __init__(self):
+        '''Initiates a controller object
+        args: self'''
         pygame.init()
         self.width, self.height = 500, 600
         self.screen = pygame.display.set_mode((self.width, self.height))
@@ -36,7 +38,8 @@ class Controller:
         self.state = "STARTSCREEN"  
     
   def mainloop(self):
-
+    '''switches between the different game loops
+    args: self (controller object)'''
     while True:
         if(self.state == "STARTSCREEN"):
           self.menuloop()
@@ -47,6 +50,8 @@ class Controller:
   
 
   def menuloop(self):
+      '''Loop for the menu screen
+      args: self (controller object)'''
       pygame.display.set_caption("Menu")
       while (self.state == "STARTSCREEN"):
         
@@ -72,10 +77,11 @@ class Controller:
         self.screen.blit(message3,(60,230))
         pygame.display.flip()
       
-  def gameloop(self):  
+  def gameloop(self):
+    '''loop for the game screen
+    args: self (controller object)'''
     pygame.display.set_caption("Monopoly")
     currentProperty = None
-    #event loop
     while (self.state == "GAME"):
       for event in pygame.event.get():
         if event.type == pygame.KEYDOWN:
@@ -145,6 +151,8 @@ class Controller:
 
       
   def gameoverloop(self):
+        '''Loop for the game over screen
+        args: self (controller object)'''
         self.background.fill((193,205,205))
         self.screen.blit(self.background, (0, 0))
         pygame.display.set_caption("Game Over")

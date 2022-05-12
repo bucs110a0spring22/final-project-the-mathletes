@@ -23,7 +23,8 @@ warning: Everything between << >> needs to be replaced (remove << >> after repla
 ## User Interface Design *(Front End Specialist)*
 
     * For example, if your program has a start screen, game screen, and game over screen, you should include a wireframe / screenshot / drawing of each one and a short description of the components
-    * Origional start screen design - ![original start screen](assets/originalStartScreen.jpg)
+    * Origional start screen design - 
+  ![original start screen](assets/originalStartScreen.jpg)
     * Final start screen design - instructions for starting and quitting the game. Text appears on the screen letting the player know what they should do next![main screen](assets/StartScreen.png)
     * Original game screen design - ![original game screen](assets/originalGameScreen.JPG) 
     * Final game screen design - monopoly game board which includes the game pieces (hat and shoe) and message box that shows the properties that each player owns. The players money is also displayed at the top of the board and updates automatically depending on what happens during the game Every property has a name and color so the players can easily know which properties they own and if they have a monopoly or not. Pictures are also shown on the board and on certain properties to make the game look like monopoly![start screen](assets/GameScreen.png)
@@ -47,19 +48,34 @@ warning: Everything between << >> needs to be replaced (remove << >> after repla
 * Classes
     * Die - Class that defines a die. Keeps track of the current roll of the die and has the rollDie() method, which "rolls" a six sided die.
     * Player - Class that defines a player. This includes the image for the player, the amount of money it has, its location, and the properties it owns. Methods - moveFromRoll(), buyProperty(), chanceCard(), communityChestCard(), payRent()
-    * Property- Class that defines a property. This keeps track of a property's name, the amount of money it costs to buy, its rent, and its owner. The image is just a dot used to show the location that the player will go to when it moves to that property. Methods - addMoney(), subtractMoney(), transferMoney(), bankrupt()
-    * Controller - Class that defines the controller. It creates the Player and Die objects, and creates the Property objects by reading a JSON file (data permanence feater) - this make it easier to change instance variable for the properties. Methods - mainloop(), menuloop(), gameloop(), gameoverloop()
+    * Property- Class that defines a property. This keeps track of a property's name, the amount of money it costs to buy it, its rent, and its owner. The image is just a dot used to show the location that the player will go to when it moves to that property.
+    * Controller - Class that defines the controller. It creates the Player and Die objects, and creates the Property objects by reading a JSON file (data permanence feature) - this make it easier to change instance variable for the properties. Methods - mainloop(), menuloop(), gameloop(), gameoverloop()
 ## Project Structure *(Software Lead)*
 
 The Project is broken down into the following file structure:
 
 * main.py
 * src
-    * <all of your python files should go here>
+    * controller.py
+    * die.py
+    * player.py
+    * property.py
 * assets
-    * <all of your media, i.e. images, font files, etc, should go here)
+    * Black.png
+    * Board.jpg
+    * ClassDiagram.png
+    * Die.png
+    * Dot.png
+    * GameOver.png
+    * GameScreen.png
+    * Hat.jpg
+    * originalGameOverScreen.jpg
+    * originalGameScreen.JPG
+    * originalStartScreen.jpg
+    * Shoe.jpg
+    * StartScreen.png
 * etc
-    * <This is a catch all folder for things that are not part of your project, but you want to keep with your project. Your demo video should go here.>
+    N/A
 
 ***
 
@@ -69,7 +85,7 @@ The Project is broken down into the following file structure:
 
 ### Software Lead - << Lauren >>
 
-<< Worked as integration specialist by... >>
+Ensuring that the Front End Specialist and the Back End Specialist were coordinating with each other to ensure that the code was completed. Additionally, the Software lead made sure that the Front End Specialist created the controller based on the Back End Specialist's work. Ensured that the project met all deadlines and stayed on task.
 
 ### Front End Specialist - << Ryan >>
 
@@ -81,8 +97,8 @@ The back end specialist created all the models, including the Die class, Player 
 
 ## Testing *(Software Lead)*
 
-* << Describe your testing strategy for your project. >>
-    * << Example >>
+* We tested our program by running it frequently. This helped us determine if any changes we made in the code effected the functionality of the program. We tested our game by playing the program and making sure that the game was following the program's instructions. When we played the game, we played it long enough to view all possible outcomes by landing on different spaces. 
+    
 
 ## ATP
 
