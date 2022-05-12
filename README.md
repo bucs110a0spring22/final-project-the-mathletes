@@ -22,14 +22,13 @@ warning: Everything between << >> needs to be replaced (remove << >> after repla
 
 ## User Interface Design *(Front End Specialist)*
 
-* << A wireframe or drawing of the user interface concept along with a short description of the interface. You should have one for each screen in your program. >>
     * For example, if your program has a start screen, game screen, and game over screen, you should include a wireframe / screenshot / drawing of each one and a short description of the components
     * Origional start screen design - ![original start screen](assets/originalStartScreen.jpg)
-    * Final start screen design - instructions for starting and quitting the game![main screen](assets/StartScreen.png)
+    * Final start screen design - instructions for starting and quitting the game. Text appears on the screen letting the player know what they should do next![main screen](assets/StartScreen.png)
     * Original game screen design - ![original game screen](assets/originalGameScreen.JPG) 
-    * Final game screen design - monopoly game board which includes the game pieces (hat and shoe) and message box that shows the properties that each player owns.![start screen](assets/GameScreen.png)
+    * Final game screen design - monopoly game board which includes the game pieces (hat and shoe) and message box that shows the properties that each player owns. The players money is also displayed at the top of the board and updates automatically depending on what happens during the game Every property has a name and color so the players can easily know which properties they own and if they have a monopoly or not. Pictures are also shown on the board and on certain properties to make the game look like monopoly![start screen](assets/GameScreen.png)
     * Original game over screen design![original game over screen](assets/originalGameOverScreen.jpg)
-    * Final game over screen design - tells you who won the game![game over](assets/GameOver.png)
+    * Final game over screen design - tells you who won the game. This occurs when one of the players runs out of money![game over](assets/GameOver.png)
 
 
 ***        
@@ -74,11 +73,11 @@ The Project is broken down into the following file structure:
 
 ### Front End Specialist - << Ryan >>
 
-<< Front-end lead conducted significant research on... >>
+ Front-end lead conducted significant research on the game loop in the controller. This was collaborative with Aviva. I also worked collaborativly with Aviva on the buy property function in the player class and on the chanceCard and communityChestCard functions in the player class. I also worked collaboratively with Aviva on the menu loop function in the controller. I also tested the code many times and was able to fix mistakes we had such as the players money not updating correctly. 
 
 ### Back End Specialist - << Aviva >>
 
-<< The back end specialist... >>
+The back end specialist created all the models, including the Die class, Player class, Property class and wrote the doc strings for every function. I worked together with the front end specialist to create the Controller class. I also worked on figuring out all the coordinates that were needed to create the Property objects. I worked with the front end specialist to debug the code.
 
 ## Testing *(Software Lead)*
 
